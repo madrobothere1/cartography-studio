@@ -1,0 +1,14 @@
+.surface {
+  position: relative;
+}
+
+.canvas {
+  display: block;
+}
+
+/* Links and nodes, drawn over the map so their motion does not redraw it. */
+.network {
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
